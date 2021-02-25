@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { CssBaseline } from '@material-ui/core'
+import store from 'src/app/store'
+import { Provider } from 'react-redux'
+import smoothscroll from 'smoothscroll-polyfill'
+
+import { ThemeProvider } from '@material-ui/core/styles'
+import { hot } from 'react-hot-loader'
+import theme from 'src/theme'
+
+import AllRouter from 'src/routes/index'
+smoothscroll.polyfill()
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <AllRouter />
+      </ThemeProvider>
+    </Provider>
   );
 }
 
-export default App;
+// Does nothing in production mode, just passes App through.
+// see https://github.com/gaearon/react-hot-loader#note-about-hot
+export default hot(module)(App)
