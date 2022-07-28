@@ -9,23 +9,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/AliMales/z-movie-fe">
+  <a href="https://github.com/AliMales/react-template-ts">
     <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">表单收集项目</h3>
+  <h3 align="center">[项目名称 VITE + REACT + MUI + TAILWIND + TS 脚手架]</h3>
 
   <p align="center">
-    电影项目
+    【副标题】
     <br />
-    <a href="https://github.com/AliMales/z-movie-fe"><strong>探索文档 »</strong></a>
+    <a href="https://github.com/AliMales/react-template-ts"><strong>探索文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/AliMales/z-movie-fe">查看 Demo</a>
+    <a href="https://github.com/AliMales/react-template-ts">查看 Demo</a>
     ·
-    <a href="https://github.com/AliMales/z-movie-fe/issues">反馈bug</a>
+    <a href="https://github.com/AliMales/react-template-ts/issues">反馈bug</a>
     ·
-    <a href="https://github.com/AliMales/z-movie-fe/issues">提交需求</a>
+    <a href="https://github.com/AliMales/react-template-ts/issues">提交需求</a>
   </p>
 </div>
 
@@ -61,7 +61,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 关于项目
-通过爬取电影数据收集电影项目
+快速开发前端项目
 
 
 
@@ -89,7 +89,6 @@
 
 ### 环境
  
-* hbuilder>=3.0
 * node>=12.0.0
 * npm>=6.0.0
 
@@ -99,7 +98,6 @@
 1. clone 当前仓库
 2. hbuilder导入项目 
 3. 安装相关依赖
-4. 运行>运行到小程序模拟器>微信小程序模拟器
 
 
 
@@ -110,17 +108,7 @@
 <!-- USAGE EXAMPLES -->
 ## 使用
 
-## Vue 3 + Typescript + Vite
-
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+## React + Typescript + Vite
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
 
@@ -134,7 +122,7 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - [ ] 多语言
     - [ ] 英文
 
-查看 [open issues](https://github.com/AliMales/z-movie-fe/issues) 完整的issues列表
+查看 [open issues](https://github.com/AliMales/react-template-ts/issues) 完整的issues列表
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
 
@@ -167,7 +155,7 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 only_tigerhu@163.com
 
-Project Link: [https://github.com/AliMales/z-movie-fe](https://github.com/AliMales/z-movie-fe)
+Project Link: [https://github.com/AliMales/react-template-ts](https://github.com/AliMales/react-template-ts)
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
 
@@ -184,5 +172,5 @@ Project Link: [https://github.com/AliMales/z-movie-fe](https://github.com/AliMal
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/AliMales/z-movie-fe/blob/master/README.md
+[license-url]: https://github.com/AliMales/react-template-ts/blob/master/README.md
 [product-screenshot]: ./src/assets/images/banner.png
